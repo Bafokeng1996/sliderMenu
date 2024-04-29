@@ -1,0 +1,102 @@
+/* Global Styles */
+.root {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+/* Styling for Shape Information Label */
+#shape-info-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+/* Styling for Button Pane */
+.button-pane {
+    -fx-spacing: 10px;
+}
+
+/* Styling for Buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker Green */
+}
+
+/* Styling for Color Picker */
+.color-picker > .color-label {
+    -fx-font-size: 14px;
+}
+
+.color-picker > .color-rect {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-border-color: #ccc;
+}
+
+/* Styling for Right Pane */
+#right-pane {
+    -fx-padding: 10px;
+}
+
+/* Styling for Shape Details Label */
+.shape-details-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Styling for Shape Details Text */
+.shape-details-text {
+    -fx-font-size: 14px;
+}
+
+/* Styling for Canvas */
+#canvas {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+/* Styling for Scene */
+.root > .scene {
+    -fx-background-color: #f5f5f5;
+}
+
+/* Styling for BorderPane Regions */
+.border-pane > .left {
+    -fx-padding: 10px;
+}
+
+.border-pane > .right {
+    -fx-padding: 10px;
+}
+
+/* Styling for Control Buttons */
+.control-button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #007bff; /* Blue */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.control-button:hover {
+    -fx-background-color: #0056b3; /* Darker Blue */
+}
+
+/* Styling for Text Nodes */
+.text {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* Additional Custom Styles */
